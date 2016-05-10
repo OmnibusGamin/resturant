@@ -1,0 +1,152 @@
+/**Main body**/
+.container-fluid{
+  padding: 0px;
+}
+
+.navbar-default{
+  position:absolute;
+  z-index: 10;
+  width: 100%;
+  background-color:transparent;
+  border:none;
+}
+
+/**CAROUSEL**/
+#first-slide{
+  background-image: url(../img/wood-2.jpg);
+  background-size:cover;
+  min-height: 600px;
+}
+
+#first-slide img{
+  max-height: 400px;
+  padding-top:150px;
+}
+
+#second-slide{
+  background-image: url(../img/restaurant-2.jpg);
+  background-size:cover;
+  min-height: 600px;
+  background-position: center;
+}
+
+#second-slide .carousel-caption{
+  padding-bottom:150px;
+}
+
+#second-slide button{
+  background-color:#f15a24;
+  padding: 5px 10px;
+}
+
+#third-slide{
+  background-image: url(../img/farm-2.jpg);
+  background-size:cover;
+  min-height: 600px;
+  background-position: center;
+}
+
+#third-slide .carousel-caption{
+  padding-bottom:150px;
+}
+
+#third-slide button{
+  background-color:#f15a24;
+  padding: 5px 10px;
+}
+
+/**Story**/
+#story{
+  min-height: 700px;
+}
+
+#story .container{
+  padding: 100px 0px;
+}
+
+#story .story-h1{
+  font-family: "lobster", cursive;
+  color: #f15a24;
+  font-size: 80px;
+  text-shadow: 2px 2px 3px #0a0a0a;
+}
+
+.one-man{
+  font-family: "raleway", sans-serif;
+  font-weight: bold;
+}
+
+.year{
+  font-size: 180px;
+  font-family: "Playfair Display", serif;
+  color: #bbb;
+  font-weight: bold;
+  position:absolute;
+  z-index: -1;
+}
+
+/**Review**/
+#review{
+  background-image: url('../img/food_review.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 500px;
+}
+ .review-text{
+   text-align: center;
+   background-color: rgba(0, 0, 0, 0.5);
+   margin-top:150px;
+ }
+
+.review-text h1{
+  font-family: "lobster", cursive;
+  color: #f15a24;
+  font-size: 80px;
+  text-shadow: 2px 2px 3px #0a0a0a;
+}
+
+.review-text p{
+  color: white;
+  font-size: 25px;
+}
+
+/**Menu**/
+#menu{
+  min-height: 500px;
+  background-image: url(../img/black_linen.png);
+  background-size: cover;
+}
+
+#menu h1{
+  text-align: center;
+  font-family: "lobster", cursive;
+  font-size: 80px;
+  color: white;
+}
+
+#menu .tab-pane{
+  background-color: white;
+  padding: 15px;
+}
+
+#menu a{
+  color: #f15a24;
+  font-size: 17px;
+}
+
+.appetizer{
+  color: #f15a24;
+}
+
+/**Contact**/
+#contact{
+  min-height: 700px;
+  background-color: #f04b0f;
+  color: white;
+}
+
+#contact .contacts-h1{
+  font-size: 80px;
+  text-transform: uppercase;;
+  font-weight: 700;
+}
